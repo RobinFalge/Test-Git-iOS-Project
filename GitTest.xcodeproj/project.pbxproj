@@ -21,6 +21,7 @@
 		0075764719BDC73400123D36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0075762919BDC73400123D36 /* UIKit.framework */; };
 		0075764F19BDC73400123D36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0075764D19BDC73400123D36 /* InfoPlist.strings */; };
 		0075765119BDC73400123D36 /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0075765019BDC73400123D36 /* GitTestTests.m */; };
+		0075765C19BDCA4800123D36 /* RFBlubTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0075765B19BDCA4800123D36 /* RFBlubTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		0075764C19BDC73400123D36 /* GitTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitTestTests-Info.plist"; sourceTree = "<group>"; };
 		0075764E19BDC73400123D36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0075765019BDC73400123D36 /* GitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestTests.m; sourceTree = "<group>"; };
+		0075765A19BDCA4800123D36 /* RFBlubTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RFBlubTest.h; path = ../RFBlubTest.h; sourceTree = "<group>"; };
+		0075765B19BDCA4800123D36 /* RFBlubTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RFBlubTest.m; path = ../RFBlubTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		0075761919BDC73300123D36 = {
 			isa = PBXGroup;
 			children = (
+				0075765A19BDCA4800123D36 /* RFBlubTest.h */,
+				0075765B19BDCA4800123D36 /* RFBlubTest.m */,
 				0075762B19BDC73400123D36 /* GitTest */,
 				0075764A19BDC73400123D36 /* GitTestTests */,
 				0075762419BDC73400123D36 /* Frameworks */,
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0075765C19BDCA4800123D36 /* RFBlubTest.m in Sources */,
 				0075763619BDC73400123D36 /* RFAppDelegate.m in Sources */,
 				0075763219BDC73400123D36 /* main.m in Sources */,
 				0075763C19BDC73400123D36 /* RFViewController.m in Sources */,
