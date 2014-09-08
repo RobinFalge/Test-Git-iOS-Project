@@ -54,8 +54,8 @@
 		0075764C19BDC73400123D36 /* GitTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitTestTests-Info.plist"; sourceTree = "<group>"; };
 		0075764E19BDC73400123D36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0075765019BDC73400123D36 /* GitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestTests.m; sourceTree = "<group>"; };
-		0075765A19BDCA4800123D36 /* RFBlubTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RFBlubTest.h; path = ../RFBlubTest.h; sourceTree = "<group>"; };
-		0075765B19BDCA4800123D36 /* RFBlubTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RFBlubTest.m; path = ../RFBlubTest.m; sourceTree = "<group>"; };
+		0075765A19BDCA4800123D36 /* RFBlubTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RFBlubTest.h; path = ../../RFBlubTest.h; sourceTree = "<group>"; };
+		0075765B19BDCA4800123D36 /* RFBlubTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RFBlubTest.m; path = ../../RFBlubTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +85,6 @@
 		0075761919BDC73300123D36 = {
 			isa = PBXGroup;
 			children = (
-				0075765A19BDCA4800123D36 /* RFBlubTest.h */,
-				0075765B19BDCA4800123D36 /* RFBlubTest.m */,
 				0075762B19BDC73400123D36 /* GitTest */,
 				0075764A19BDC73400123D36 /* GitTestTests */,
 				0075762419BDC73400123D36 /* Frameworks */,
@@ -117,6 +115,8 @@
 		0075762B19BDC73400123D36 /* GitTest */ = {
 			isa = PBXGroup;
 			children = (
+				0075765A19BDCA4800123D36 /* RFBlubTest.h */,
+				0075765B19BDCA4800123D36 /* RFBlubTest.m */,
 				0075763419BDC73400123D36 /* RFAppDelegate.h */,
 				0075763519BDC73400123D36 /* RFAppDelegate.m */,
 				0075763719BDC73400123D36 /* Main.storyboard */,
